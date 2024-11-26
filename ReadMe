@@ -1,0 +1,12 @@
+1. Naive Sort (Bubble Sort):
+Best Case: Ketika array sudah terurut dalam urutan yang benar.
+Pada best case, bubble sort masih akan memeriksa seluruh array, tetapi tidak melakukan pertukaran elemen.
+Kompleksitas waktu tetap O(n²) karena dua loop bersarang tetap berjalan, meskipun tidak ada operasi swap.
+2. Conquer Sort (Merge Sort):
+Best Case: Merge sort tidak memiliki best case khusus seperti bubble sort karena mekanismenya selalu membagi array menjadi dua bagian dan menggabungkannya kembali.
+Kompleksitas waktu adalah O(n log n) untuk semua kasus (best, average, worst).
+Tidak ada penghematan signifikan pada array yang sudah terurut.
+Kesimpulan:
+Naive Sort kurang efisien dibandingkan Merge Sort, terutama untuk dataset yang lebih besar.
+Meskipun Bubble Sort bisa menghindari swap pada best case, jumlah iterasi tetap tinggi.
+Merge Sort lebih konsisten dan cepat dalam hampir semua kasus karena pendekatannya yang berbasis pembagian.
